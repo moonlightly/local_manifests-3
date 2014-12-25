@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project name="kykdev/arm-linux-androideabi-4.8-linaro" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8-linaro" remote="github" revision="master" />
+  <project name="cmRemiX/arm-linux-androideabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8-sm" remote="github" revision="master" />
+  <project name="UBERUTILS/arm-linux-androideabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9-sm" remote="github" revision="lp" />
+  <remove-project name="CyanogenMod/android_build" />
+  <project name="Khaon/android_build" path="build" remote="github" />
+  <project name="M1cha/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="github" revision="staging/cm-12.0" />
+  <remove-project name="platform/external/libopus" />
+  <project name="Khaon/libopus" path="external/libopus" remote="github" revision="master" />
+  <remove-project name="CyanogenMod/android_frameworks_av" />
+  <project name="Khaon/android_frameworks_av" path="frameworks/av" remote="github" />
+  <project name="Khaon/android_device_samsung_manta" path="device/samsung/manta" remote="github" />
+  <project name="Khaon/android_kernel_samsung_manta" path="kernel/samsung/manta" remote="github" />
+  <project name="khaon/android_device_xiaomi_aries" path="device/xiaomi/aries" remote="github" revision="staging/cm-12.0" />
+  <project name="M1cha/android_kernel_xiaomi_aries" path="kernel/xiaomi/aries" remote="github" revision="staging/cm-12.0" />
+  <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="github" />
+  <project name="CyanogenMod/android_packages_apps_Apollo" path="packages/apps/Apollo" remote="github" revision="cm-12.0" />
+  <remove-project name="CyanogenMod/android_frameworks_base" />
+  <project name="Khaon/android_frameworks_base" path="frameworks/base" remote="github" />
+  <remove-project name="CyanogenMod/android_packages_apps_Settings" />
+ <project name="Khaon/android_packages_apps_Settings" path="frameworks/base" remote="github" />
+</manifest>
