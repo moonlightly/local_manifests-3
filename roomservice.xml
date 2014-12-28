@@ -2,7 +2,7 @@
 <manifest>
   <project name="kykdev/arm-linux-androideabi-4.8-linaro" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8-linaro" remote="github" revision="master" />
   <project name="cmRemiX/arm-linux-androideabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8-sm" remote="github" revision="master" />
-  <project name="UBERUTILS/arm-linux-androideabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9-sm" remote="github" revision="lp" />
+  <project name="cmRemiX/arm-linux-androideabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9-sm" remote="github" revision="master" />
   <remove-project name="CyanogenMod/android_build" />
   <project name="Khaon/android_build" path="build" remote="github" />
   <project name="M1cha/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="github" revision="staging/cm-12.0" />
@@ -19,5 +19,5 @@
   <remove-project name="CyanogenMod/android_frameworks_base" />
   <project name="Khaon/android_frameworks_base" path="frameworks/base" remote="github" />
   <remove-project name="CyanogenMod/android_packages_apps_Settings" />
- <project name="Khaon/android_packages_apps_Settings" path="frameworks/base" remote="github" />
+  <project name="Khaon/android_packages_apps_Settings" path="packages/apps/Settings" remote="github" />
 </manifest>
