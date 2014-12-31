@@ -24,4 +24,6 @@
   <project name="Khaon/android_frameworks_base" path="frameworks/base" remote="github" />
   <remove-project name="CyanogenMod/android_packages_apps_Settings" />
   <project name="Khaon/android_packages_apps_Settings" path="packages/apps/Settings" remote="github" />
+  <remove-project name="CyanogenMod/android_art" />
+  <project name="Khaon/android_art" path="art" remote="github" />
 </manifest>
