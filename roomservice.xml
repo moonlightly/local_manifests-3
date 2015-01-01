@@ -6,16 +6,10 @@
   <remove-project name="CyanogenMod/android_build" />
   <project name="Khaon/android_build" path="build" remote="github" />
   <project name="M1cha/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="github" revision="staging/cm-12.0" />
-  <project name="TheMuppets/proprietary_vendor_audience" path="vendor/audience" remote="github" revision="cm-12.0" />
-  <project name="TheMuppets/proprietary_vendor_broadcom" path="vendor/broadcom" remote="github" revision="cm-12.0" />
-  <project name="TheMuppets/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="cm-12.0" />
-  <project name="TheMuppets/proprietary_vendor_widevine" path="vendor/widevine" remote="github" revision="cm-12.0" />
   <remove-project name="platform/external/libopus" />
   <project name="Khaon/libopus" path="external/libopus" remote="github" revision="master" />
   <remove-project name="CyanogenMod/android_frameworks_av" />
   <project name="Khaon/android_frameworks_av" path="frameworks/av" remote="github" />
-  <project name="Khaon/android_device_samsung_manta" path="device/samsung/manta" remote="github" />
-  <project name="Khaon/android_kernel_samsung_manta" path="kernel/samsung/manta" remote="github" />
   <project name="khaon/android_device_xiaomi_aries" path="device/xiaomi/aries" remote="github" revision="staging/cm-12.0" />
   <project name="M1cha/android_kernel_xiaomi_aries" path="kernel/xiaomi/aries" remote="github" revision="staging/cm-12.0" />
   <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="github" />
